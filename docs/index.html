@@ -53,6 +53,7 @@
           <li><a href="#services">Components</a></li>
           <li><a href="#logic">Schematics</a></li>
           <li><a href="#analyses">Analyses</a></li>
+          <li><a href="#alt-methods">Manufacturing Methods</a></li>
           <li><a href="#team">Team</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -347,7 +348,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Calculations and Analyses</h2>
-        <p>We performed strength and thermal (hot/cold) analyses using SolidWorks Simulation to validate the design's reliability. Based on all simulations, the results demonstrate a safety factor of at least 1.43, confirming that the design meets structural and environmental performance requirements.</p>
+        <p>We performed strength and thermal (hot/cold) analyses using SolidWorks Simulation to validate the design's reliability. The model was constructed using 3mm thick Aluminum 6061-T6, chosen for its favorable strength-to-weight ratio and thermal properties. Based on all simulations, the results demonstrate a safety factor of at least 1.43, confirming that the design meets structural and environmental performance requirements.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -357,12 +358,12 @@
           <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item position-relative">
               <div>
-                <img src="assets/img/strength-test.jpeg" class="img-fluid" alt="">
+                <img src="assets/img/strength-test-aluminium.jpeg" class="img-fluid" alt="">
               </div>
               <br>
                 <h3>Strength Test</h3>
               </a>
-              <p>In the strength analysis, we evaluated the mechanical stresses acting on the body during normal operation, as well as the impact forces resulting from a drop test from a height of 1.5 meters. As shown in the simulation results, the maximum von Mises stress reached approximately 7.56 × 10⁷ N/m², while the material's yield strength is 2.75 × 10⁸ N/m², resulting in a safety factor of 3.64. This confirms that the structure can safely withstand typical usage and accidental impacts, with a significant safety margin.
+              <p>In the strength analysis, we evaluated the mechanical stresses acting on the body during normal operation, as well as the impact forces resulting from a drop test from a height of 1.5 meters. As shown in the simulation results, the maximum von Mises stress reached approximately 7.56 × 10⁷ N/m², while the material's yield strength is 2.75 × 10⁸ N/m², resulting in a safety factor of [η] = 3.64. This confirms that the structure can safely withstand typical usage and accidental impacts, with a significant safety margin.
                 </p>
             </div>
           </div><!-- End Service Item -->
@@ -370,12 +371,101 @@
           <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item position-relative">
               <div>
-                <img src="assets/img/thermal-cold-test.jpeg" class="img-fluid" alt="">
+                <img src="assets/img/thermal-cold-test-aluminium.jpeg" class="img-fluid" alt="">
               </div>
               <br>
                 <h3>Thermal Test</h3>
               </a>
-              <p>In the thermal analysis, we examined the effects of exposure to temperatures ranging from -20 °C to 50 °C on the body material. The simulation indicated that the maximum stress due to thermal expansion (50 °C) was approximately 1.1 × 10⁸ N/m², yielding a safety factor of 2.5, while the maximum stress due to thermal contraction (-20 °C) reached 1.93 × 10⁸ N/m², resulting in a safety factor of 1.43. Both are below the material's yield strength, demonstrating that the design maintains its structural integrity under both high and low temperature conditions, ensuring reliable performance in varying environmental environments.</p>
+              <p>In the thermal analysis, we examined the effects of exposure to temperatures ranging from -20°C to 50°C on the body material. The simulation indicated that the maximum stress due to thermal expansion (50°C) was approximately 1.1 × 10⁸ N/m², yielding a safety factor of [η] = 2.5, while the maximum stress due to thermal contraction (-20°C) reached 1.93 × 10⁸ N/m², resulting in a safety factor of [η] = 1.43. Both are below the material's yield strength, demonstrating that the design maintains its structural integrity under both high and low temperature conditions, ensuring reliable performance in varying environmental environments.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Alternative Methods Section -->
+      <section id="alt-methods" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Alternative Manufacturing Methods</h2>
+        <h4 style="font-weight: bold; margin-top: 50px">3D Printing</h4>
+        <p>To explore an alternative manufacturing method, we analyzed a redesigned enclosure fabricated using 3D printing with polycarbonate (PC) at a uniform wall thickness of 6mm. This method was considered primarily for the initial prototyping phase, allowing for rapid iteration and cost-effective testing.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row justify-content-center gy-4">
+
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div>
+                <img src="assets/img/strength-test-3d-print.png" class="img-fluid" alt="">
+              </div>
+              <br>
+                <h3>Strength Test</h3>
+              </a>
+              <p>A virtual drop test from a height of 1.22 meters was simulated to evaluate structural integrity under impact. Results showed a maximum Von Mises stress of approximately 2.45 × 10<sup>7</sup> N/m² and a safety factor of [η] = 2.05, indicating sufficient robustness under standard operational impact scenarios.
+                </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div>
+                <img src="assets/img/thermal-hot-test-3d-print.png" class="img-fluid" alt="">
+              </div>
+              <br>
+                <h3>Thermal Test</h3>
+              </a>
+              <p>Thermal stress simulations were performed for both high and low operating extremes:
+At −20°C, the model experienced slightly elevated stress levels with [η] = 1.37, confirming material stability under cold storage or transportation.
+At 50°C, the safety factor increased to [η] = 2.38, affirming safe performance under elevated ambient conditions.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h4 style="font-weight: bold; margin-top: 90px">Injection Molding</h4>
+        <p>To evaluate the performance of the final product enclosure using mass-production methods, we analyzed a design fabricated via injection molding with ABS-PC material. The enclosure was modeled with a 4mm wall thickness, utilizing strategically placed ribs to reinforce structural rigidity and compensate for the reduced thickness.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row justify-content-center gy-4">
+
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div>
+                <img src="assets/img/strength-test-injection.png" class="img-fluid" alt="">
+              </div>
+              <br>
+                <h3>Strength Test</h3>
+              </a>
+              <p>A simulated drop from a height of 1.22 meters was performed to assess structural integrity under impact. The results showed a maximum Von Mises stress of approximately 2.67 × 10<sup>7</sup> N/m² and a safety factor of [η] = 1.6, indicating acceptable durability under typical drop scenarios, aided by the ribbed structure.
+                </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div>
+                <img src="assets/img/thermal-cold-test-injection.png" class="img-fluid" alt="">
+              </div>
+              <br>
+                <h3>Thermal Test</h3>
+              </a>
+              <p>Thermal simulations were conducted under extreme environmental conditions:
+At −20°C, the safety factor dropped to [η] = 1.17, with elevated stress concentrations, consistent with the expected material behavior under low-temperature conditions.
+At 50°C, the model maintained a safety factor of [η] = 1.36, confirming stable performance in warmer environments.
+</p>
             </div>
           </div><!-- End Service Item -->
 
